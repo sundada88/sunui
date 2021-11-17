@@ -1,3 +1,4 @@
+import '../styles/common.less'
 import { defineComponent } from 'vue'
 import { PropType } from 'vue'
 import { formatStyleVars } from '../utils/elements'

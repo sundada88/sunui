@@ -6,7 +6,6 @@ import ripple from '../ripple/index'
 
 export default defineComponent({
   name: 'SunButton',
-  emits: ['click'],
   props,
   directives: {
     ripple
@@ -20,12 +19,14 @@ export default defineComponent({
   setup (props, { slots }) {
     const handleClick = (e: Event) => {
       const { loading, disabled, onClick } = props
+      console.log('handleclickhandleclickhandleclickhandleclick')
       if (loading || disabled) return
       onClick?.(e)
     }
     const handleTouchstart = (e: Event) => {
       const { loading, disabled, onTouchstart } = props
       if (loading || disabled) return
+      console.log('touchstarttouchstarttouchstarttouchstarttouchstart')
       onTouchstart?.(e)
     }
 
@@ -47,7 +48,7 @@ export default defineComponent({
               round ? 'sun-button--round' : null
             ]}
             style={{ background: color, color: textColor }}
-            onClick={handleClick}
+            onClick={props.onClick}
             onTouchstart={handleTouchstart}
             v-ripple={ripple}
           >

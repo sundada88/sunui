@@ -46,5 +46,8 @@ export const props = {
     type: String,
   },
   round: Boolean,
-  loading: Boolean,
+  loading: {
+    tyep: Boolean,
+    default: false,
+  },
 }

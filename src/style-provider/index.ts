@@ -11,12 +11,13 @@ function StyleProvider(styleVars: StyleVars = {}) {
 
   const styles: StyleVars = formatStyleVars(styleVars)
   Object.entries(styles).forEach(([key, value]) => {
+    console.log('key', key, value)
     document.documentElement.style.setProperty(key, value)
     mountedVarKeys.push(key)
   })
 }
 
-StyleProvider.component = SunStyleProvider
+StyleProvider.Component = SunStyleProvider
 SunStyleProvider.install = function (app: App) {
   app.component(SunStyleProvider.name, SunStyleProvider)
 }
