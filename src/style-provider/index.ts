@@ -11,7 +11,6 @@ function StyleProvider(styleVars: StyleVars = {}) {
 
   const styles: StyleVars = formatStyleVars(styleVars)
   Object.entries(styles).forEach(([key, value]) => {
-    console.log('key', key, value)
     document.documentElement.style.setProperty(key, value)
     mountedVarKeys.push(key)
   })

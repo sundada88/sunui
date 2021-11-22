@@ -1,7 +1,7 @@
 import StyleProvider from '../index'
 import SunStyleProvider from '../styleProvider.tsx'
 import { createApp } from 'vue'
-import {mount} from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import { delay } from '../../utils/jest'
 
 test('test styleProvider component plugin', () => {
@@ -14,6 +14,23 @@ test('test styleProvider plugin', () => {
   const app = createApp({}).use(SunStyleProvider)
   expect(app.component(SunStyleProvider.name)).toBeTruthy()
 })
+
+test('test styleProvider render correct', () => {
+  const wrapper = mount(SunStyleProvider)
+  expect(wrapper.find('sun-style-provider')).toBeTruthy()
+})
+
+test('test styleProvider slots render correct', () => {
+  const _default = '<div>slot test</div>'
+  const wrapper = mount(SunStyleProvider, {
+    slots: {
+      default: _default
+    }
+  })
+  expect(wrapper.html()).toContain(_default)
+  wrapper.unmount()
+})
+
 test('test styleProvider functional', async () => {
   StyleProvider({
     'cell-font-size': '30px'
@@ -22,8 +39,8 @@ test('test styleProvider functional', async () => {
   expect(getComputedStyle(document.documentElement).getPropertyValue('--cell-font-size')).toBe('30px')
 })
 
-test('test styleProvider component', async() => {
-  const wrapper = mount(SunStyleProvider) 
+test('test styleProvider component', async () => {
+  const wrapper = mount(SunStyleProvider)
   const el = wrapper.find('.sun-style-provider')
   expect(el.exists()).toBeTruthy()
   await wrapper.setProps({

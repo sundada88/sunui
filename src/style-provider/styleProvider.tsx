@@ -8,14 +8,14 @@ export default defineComponent({
   props: {
     styleVars: {
       type: Object as PropType<StyleVars>,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
-  setup (props, { slots }) {
+  setup(props, { slots }) {
     return () => (
-      <div class='sun-style-provider' style={formatStyleVars(props.styleVars)}>
+      <div class="sun-style-provider" style={formatStyleVars(props.styleVars)}>
         {slots.default?.()}
       </div>
     )
-  }
+  },
 })
