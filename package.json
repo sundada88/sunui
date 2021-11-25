@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@varlet/cli": "^1.22.10",
+    "husky": "^7.0.4",
     "vue": "3.2.16"
   },
   "release-it": {
@@ -53,6 +54,11 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
     }
   },
   "lint-staged": {
