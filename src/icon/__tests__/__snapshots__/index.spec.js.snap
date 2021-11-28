@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test icon example 1`] = `
+"<div>
+  <div class=\\"app-type\\">图标尺寸</div><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"transition: all 0ms;\\"></i><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"font-size: 26px; transition: all 0ms;\\"></i>
+  <div class=\\"app-type\\">图标颜色</div><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"color: rgb(41, 121, 255); transition: all 0ms;\\"></i><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"font-size: 26px; color: rgb(41, 121, 255); transition: all 0ms;\\"></i>
+  <div class=\\"app-type\\">使用图片</div><img class=\\"sun-icon sun-icon--set sun-icon__image\\" src=\\"https://varlet.gitee.io/varlet-ui/cat.jpg\\" style=\\"font-size: 32px; width: 32px; height: 32px; transition: all 0ms;\\">
+  <div class=\\"app-type\\">注册事件</div><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"color: rgb(41, 121, 255); transition: all 0ms;\\"></i>
+  <div class=\\"app-type\\">图标切换动画(点击切换)</div><i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"font-size: 30px; color: rgb(41, 121, 255); transition: all 300ms;\\"></i>
+  <div class=\\"app-type\\">图标列表(点击复制)</div>
+  <div class=\\"example__icons\\">
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">checkbox-marked-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-check-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">check-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">information</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-information-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">information-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-warning\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">warning</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-alert-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">alert-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-error\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">error</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-alert-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">alert-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">checkbox-marked</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">checkbox-marked-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-blank-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">checkbox-blank-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-radio-marked\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">radio-marked</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-checkbox-marked-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">checkbox-marked-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-radio-blank\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">radio-blank</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-close-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">close-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-close-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">close-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-close-box\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">close-box</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-close-box-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">close-box-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-minus-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">minus-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-minus-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">minus-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-star\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">star</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-star-half-full\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">star-half-full</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-star-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">star-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-heart\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">heart</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-heart-half-full\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">heart-half-full</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-heart-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">heart-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-delete\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">delete</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-trash-can\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">trash-can</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-trash-can-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">trash-can-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-minus-box\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">minus-box</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-minus-box-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">minus-box-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-account-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">account-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-account-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">account-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cog\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cog</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cog-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cog-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-map-marker-radius\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">map-marker-radius</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-map-marker-radius-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">map-marker-radius-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-camera\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">camera</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-camera-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">camera-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cart\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cart</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cart-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cart-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-phone\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">phone</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-phone-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">phone-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-image\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">image</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-image-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">image-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-bell\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">bell</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-bell-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">bell-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-home\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">home</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-home-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">home-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-map-marker\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">map-marker</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-map-marker-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">map-marker-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-magnify-plus\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">magnify-plus</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-magnify-plus-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">magnify-plus-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-magnify-minus\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">magnify-minus</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-magnify-minus-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">magnify-minus-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-play-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">play-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-play-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">play-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-help-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">help-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-help-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">help-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-plus-circle\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">plus-circle</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-plus-circle-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">plus-circle-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-check\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">check</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-window-close\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">window-close</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-plus\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">plus</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-minus\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">minus</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-chevron-up\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">chevron-up</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-chevron-down\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">chevron-down</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-chevron-left\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">chevron-left</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-chevron-right\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">chevron-right</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu-up\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu-up</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu-down\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu-down</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu-left\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu-left</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu-right\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu-right</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-upload\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">upload</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-download\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">download</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-format-list-checkbox\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">format-list-checkbox</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-menu-open\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">menu-open</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-dots-vertical\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">dots-vertical</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-message-text-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">message-text-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-message-processing-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">message-processing-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-white-balance-sunny\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">white-balance-sunny</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-cloudy\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-cloudy</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-lightning\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-lightning</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-pouring\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-pouring</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-snowy\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-snowy</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-rainy\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-rainy</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-translate\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">translate</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-magnify\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">magnify</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-github\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">github</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-refresh\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">refresh</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-arrow-down\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">arrow-down</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-power\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">power</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-file-document-outline\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">file-document-outline</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">fire</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-wifi\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">wifi</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-wrench\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">wrench</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cake-variant\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cake-variant</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-notebook\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">notebook</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-cellphone\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">cellphone</div>
+    </div>
+    <div class=\\"example__icon sun-elevation--2\\"><i class=\\"sun-icon sun-icon--set sun-icon-weather-night\\" style=\\"transition: all 0ms;\\"></i>
+      <div class=\\"example__icon-name\\">weather-night</div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`test icon styles 1`] = `"<i class=\\"sun-icon sun-icon--set sun-icon-check\\" style=\\"font-size: 36px; color: rgb(0, 0, 0); transition: all 0ms;\\"></i>"`;

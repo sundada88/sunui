@@ -20,74 +20,81 @@ module.exports = {
     'color-mobile-cell-hover': '#009688'
   },
   highlight: {
-    style: './highlight.css',
+    style: './highlight.css'
   },
   pc: {
     redirect: '/home',
     title: {
-      'zh-CN': '一个组件库',
+      'zh-CN': '一个组件库'
     },
     header: {
       i18n: null,
-      github: 'https://github.com/haoziqaq/varlet',
+      github: 'https://github.com/haoziqaq/varlet'
     },
     menu: [
       {
         text: {
-          'zh-CN': '开发指南',
+          'zh-CN': '开发指南'
         },
-        type: 1,
+        type: 1
       },
       {
         text: {
-          'zh-CN': '基本介绍',
+          'zh-CN': '基本介绍'
         },
         doc: 'home',
-        type: 3,
+        type: 3
       },
       {
         text: {
-          'zh-CN': '基础组件',
+          'zh-CN': '基础组件'
         },
-        type: 1,
+        type: 1
       },
       {
         text: {
-          'zh-CN': 'Button 按钮',
+          'zh-CN': 'Button 按钮'
         },
         doc: 'button',
-        type: 2,
+        type: 2
       },
       {
         text: {
-          'zh-CN': 'StyleProvider 样式定制',
+          'zh-CN': 'Icon 图标'
+        },
+        doc: 'icon',
+        type: 2
+      },
+      {
+        text: {
+          'zh-CN': 'StyleProvider 样式定制'
         },
         doc: 'style-provider',
-        type: 2,
+        type: 2
       },
       {
         text: {
-          'zh-CN': '功能组件',
+          'zh-CN': '功能组件'
         },
-        type: 1,
+        type: 1
       },
       {
         text: {
-          'zh-CN': 'Ripple 水波指令',
+          'zh-CN': 'Ripple 水波指令'
         },
         doc: 'ripple',
-        type: 2,
-      },
-    ],
+        type: 2
+      }
+    ]
   },
   mobile: {
     redirect: '/home',
     title: {
-      'zh-CN': '一个组件库',
+      'zh-CN': '一个组件库'
     },
     header: {
       i18n: null,
-      github: 'https://github.com/haoziqaq/varlet',
-    },
-  },
+      github: 'https://github.com/haoziqaq/varlet'
+    }
+  }
 }
