@@ -17,7 +17,6 @@ export default defineComponent({
     以上两种方法有相同的编译结果
   */
   setup (props, { slots }) {
-    console.log('button setup')
     const handleClick = (e: Event) => {
       const { loading, disabled, onClick } = props
       if (loading || disabled) return

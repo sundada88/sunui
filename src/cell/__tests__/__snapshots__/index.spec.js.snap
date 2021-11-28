@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test cell example 1`] = `
+"<div>
+  <div class=\\"app-type\\">基本使用</div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> </div>
+  </div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> </div>
+  </div>
+  <div class=\\"app-type\\">显示图标</div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__icon\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire sun-flex\\" style=\\"transition: all 0ms;\\"></i></div>
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> <i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i></div>
+  </div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__icon\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire\\" style=\\"transition: all 0ms;\\"></i></div>
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> <i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i></div>
+  </div>
+  <div class=\\"app-type\\">显示描述</div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__icon\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire sun-flex\\" style=\\"transition: all 0ms;\\"></i></div>
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">描述</div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> <i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i></div>
+  </div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__icon\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire sun-flex\\" style=\\"transition: all 0ms;\\"></i></div>
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">描述</div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> <i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i></div>
+  </div>
+  <div class=\\"sun-cell\\">
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">描述</div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> <i class=\\"sun-icon sun-icon--set sun-icon-information\\" style=\\"transition: all 0ms;\\"></i></div>
+  </div>
+  <div class=\\"app-type\\">显示边框</div>
+  <div class=\\"sun-cell sun-cell--border\\">
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> </div>
+  </div>
+  <div class=\\"sun-cell sun-cell--border\\">
+    <div class=\\"sun-cell__content\\">
+      <div class=\\"sun-cell__title\\">这是单元格</div>
+      <div class=\\"sun-cell__desc\\">
+        <!---->
+      </div>
+    </div>
+    <div class=\\"sun-cell__extra\\"> </div>
+  </div>
+</div>"
+`;
+
+exports[`test cell props 1`] = `
+"<div class=\\"sun-cell sun-cell--border\\">
+  <div class=\\"sun-cell__icon iconClass\\"><i class=\\"sun-icon sun-icon--set sun-icon-fire sun-flex\\" style=\\"transition: all 0ms;\\"></i></div>
+  <div class=\\"sun-cell__content\\">
+    <div class=\\"sun-cell__title test-title-class\\">This is Cell</div>
+    <div class=\\"sun-cell__desc test-desc-class\\">This is desc</div>
+  </div>
+  <div class=\\"sun-cell__extra test-extra-class\\"> </div>
+</div>"
+`;

@@ -60,6 +60,13 @@ module.exports = {
       },
       {
         text: {
+          'zh-CN': 'Cell 单元格'
+        },
+        doc: 'cell',
+        type: 2
+      },
+      {
+        text: {
           'zh-CN': 'Icon 图标'
         },
         doc: 'icon',
