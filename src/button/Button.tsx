@@ -7,7 +7,7 @@ import ripple from '../ripple/index'
 export default defineComponent({
   name: 'SunButton',
   directives: {
-    ripple,
+    ripple
   },
   props,
   // 定义的 props 属性 onClick 在编译的时候，会编译成 @click 事件，我们在外面监听事件可以通过 @click 监听
@@ -16,7 +16,7 @@ export default defineComponent({
     <button :onClick="handleClick"></button>
     以上两种方法有相同的编译结果
   */
-  setup(props, { slots }) {
+  setup (props, { slots }) {
     console.log('button setup')
     const handleClick = (e: Event) => {
       const { loading, disabled, onClick } = props
@@ -43,7 +43,7 @@ export default defineComponent({
             block ? 'sun--flex sun-button--block' : 'sun--inline-flex',
             outline ? 'sun-button--outline' : null,
             text ? 'sun-button--text' : 'sun-elevation--1',
-            round ? 'sun-button--round' : null,
+            round ? 'sun-button--round' : null
           ]}
           style={{ background: color, color: textColor }}
           onClick={handleClick}
@@ -54,5 +54,5 @@ export default defineComponent({
         </button>
       )
     }
-  },
+  }
 })

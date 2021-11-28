@@ -56,11 +56,6 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",
     "*.{ts,tsx,js,vue}": "eslint --fix",
