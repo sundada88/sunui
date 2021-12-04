@@ -17,7 +17,7 @@ export const isVw = (value: unknown): value is string => isString(value) && valu
 // example 1vh
 export const isVh = (value: unknown): value is string => isString(value) && value.endsWith('vh')
 
-export function formatStyleVars (styleVars: StyleVars) {
+export function formatStyleVars(styleVars: StyleVars) {
   return Object.entries(styleVars ?? {}).reduce((styles, [key, value]) => {
     const cssVar = key.startsWith('--') ? key : `--${kebabCase(key)}`
     styles[cssVar] = value
